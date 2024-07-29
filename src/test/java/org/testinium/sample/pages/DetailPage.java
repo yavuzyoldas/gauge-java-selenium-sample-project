@@ -60,6 +60,7 @@ public class DetailPage {
 
         }
         elementHelper.click(selectSize);
+
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         elementHelper.click(detailPageUIElements.detailPageAddToBasket);
         elementHelper.waitVisibilityOfElementLocated(myBasketPageUIElements.myBasketCount);

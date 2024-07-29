@@ -47,6 +47,11 @@
             <artifactId>poi</artifactId>
             <version>5.2.0</version> <!-- Güncel versiyon numarası -->
         </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>5.2.0</version> <!-- Güncel versiyon numarası -->
+        </dependency>
 
     </dependencies>
 

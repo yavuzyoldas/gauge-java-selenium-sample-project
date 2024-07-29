@@ -40,7 +40,7 @@ public class SearchPage {
 
         data =  UtilFunctions.readDataFromExcel(0,0);
         System.out.println("data : " + data);
-        Log.info("step -> deleteProductsFromBasketAndCheck");
+        Log.info("step -> readDataFromExcelForFirst");
 
     }
 
